@@ -1,0 +1,35 @@
+.main-nav ul {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #a6abaa;
+}
+
+li a.active {
+  list-style: circle;
+  color: rgb(53, 50, 50);
+  font-weight: 500;
+  margin-left: -30px;
+}
+.active .MuiSvgIcon-root {
+  font-size: xx-small;
+  margin: 0 10px;
+}
+ul li {
+  padding: 11px;
+}
+
+.cool-link::after {
+  content: "";
+  display: block;
+  width: 0;
+  height: 2.5px;
+  background: #585858;
+  transition: width 0.3s;
+}
+
+.cool-link:hover::after {
+  width: 50%;
+}

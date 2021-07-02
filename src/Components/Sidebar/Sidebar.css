@@ -1,0 +1,8 @@
+.sidebar_body{
+    height: 100%;
+    width: 250px;
+    background-color: #f5fcfb;
+    display: flex;
+    flex-direction: column;
+    gap: 1.2em;
+}

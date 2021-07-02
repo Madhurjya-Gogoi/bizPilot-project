@@ -1,0 +1,8 @@
+h6{
+    font-size: small;
+    text-align: center;
+    border: 2px dotted gray;
+    padding: 40px;
+    width: 100px;
+    margin-left: 20px;
+}

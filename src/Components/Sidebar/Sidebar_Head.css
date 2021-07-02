@@ -1,0 +1,90 @@
+.head_body {
+  margin: 1.5em 0;
+  padding: 0 0.3em;
+}
+
+img {
+  width: 2em;
+  border-radius: 0.7em;
+  object-fit: contain;
+}
+
+.logo {
+  position: relative;
+  margin-left: 20px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+
+.logo small {
+  margin-left: 8em;
+  font-size: xx-small;
+  position: absolute;
+  left: -34px;
+  top: 20px;
+}
+
+.logo button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  bottom: 15px;
+}
+.logo button .MuiSvgIcon-root {
+  font-size: 14px;
+}
+
+.User {
+  margin-top: 20px;
+  position: relative;
+  margin-left: 20px;
+}
+
+.User:hover {
+  cursor: pointer;
+}
+
+.User small {
+  margin-left: 8em;
+  font-size: xx-small;
+  position: absolute;
+  left: -34px;
+  top: 20px;
+}
+
+.User button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  bottom: 15px;
+}
+
+.User button .MuiSvgIcon-root {
+  font-size: 9px;
+}
+
+.button {
+  margin: 50px;
+  position: relative;
+}
+
+.button button {
+  border: 2px solid #e4e4e4;
+  padding: 10px 25px;
+  background-color: #ffffff;
+  border-radius: 15px;
+  width: 200px;
+  position: absolute;
+  left: -40px;
+}
+
+button .MuiSvgIcon-root {
+  font-size: x-small;
+}
+
+.button button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 11px rgba(33, 33, 33, 0.1);
+}
