@@ -6,7 +6,7 @@ import "./Sidebar_bottom.css"
 function Sidebar_bottom() {
     return (
         <div className="sidebar_bottom">
-            <div>
+            <div className="drag_drop">
                 <h6>Drag and Drop</h6>
             </div>
 

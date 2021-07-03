@@ -1,0 +1,45 @@
+.invoice_expenses {
+  margin: 0px 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 700px;
+  border-bottom: 1px solid #cdd5e1;
+  padding-bottom: 30px;
+}
+.invoice_data {
+  display: flex;
+  gap: 3em;
+  justify-content: space-between;
+  line-height: 0;
+}
+
+.invoice_header h5 {
+  font-size: 15px;
+}
+
+.invoice_data h5 {
+  color: #6c6c6c;
+  font-weight: 600;
+}
+
+.invoice_data button {
+  border: none;
+  background-color: transparent;
+  color: #6c6c6c;
+}
+
+.invoice_header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.invoice_header small {
+  position: absolute;
+  top: 50px;
+  font-size: xx-small;
+}
+.invoice_header button {
+  border: none;
+  background-color: transparent;
+  color: #80c3fa;
+}

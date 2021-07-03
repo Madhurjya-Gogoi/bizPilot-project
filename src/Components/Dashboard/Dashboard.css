@@ -1,0 +1,6 @@
+.Dashboard_body{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #ffffff;
+}

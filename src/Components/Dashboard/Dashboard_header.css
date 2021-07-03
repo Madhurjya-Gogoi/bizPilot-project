@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1.5em;
+  position: relative;
+  margin-left: 40px;
+}
+
+.header Button {
+  height: 2em;
+  position: absolute;
+  top: 23px;
+  left: 150px;
+}

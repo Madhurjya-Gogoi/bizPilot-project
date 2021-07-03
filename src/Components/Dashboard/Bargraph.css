@@ -1,0 +1,7 @@
+.bar_body{
+    margin: 10px 30px;
+}
+
+.bar_head{
+    display: flex;
+}
