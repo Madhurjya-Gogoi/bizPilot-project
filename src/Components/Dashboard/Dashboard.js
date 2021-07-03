@@ -1,17 +1,17 @@
 import React from 'react'
 import Dashboard_header from './Dashboard_header'
-import Invoices_Expenses from './Invoices_Expenses'
 import "./Dashboard.css"
-import Bargraph from './Bargraph'
+import Taskbar from '../Taskbar/Taskbar'
+import Dashboard_data from './Dashboard_data'
 
 function Dashboard() {
     return (
         <div className="Dashboard_body">
           <Dashboard_header/>
           <div className="main_body">
-            <Invoices_Expenses/>
-            <Bargraph/>
-          </div>
+           <Dashboard_data/>
+            <Taskbar/>
+          </div>         
         </div>
     )
 }

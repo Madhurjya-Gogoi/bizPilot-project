@@ -1,7 +1,29 @@
-.bar_body{
-    margin: 10px 30px;
+.bar_body {
+  margin: 10px 30px;
+  border-bottom: 1px solid #cdd5e1;
+  padding-bottom: 30px;
 }
 
-.bar_head{
-    display: flex;
+.bar_head {
+  position: relative;
+}
+
+.bar_head .left {
+  border: none;
+  background-color: transparent;
+  font-size: 12px;
+  color: #707070;
+  position: absolute;
+  top: 30px;
+}
+
+.bar_head .right {
+  border: none;
+  background-color: transparent;
+  font-size: 12px;
+  float: right;
+  color: #707070;
+  position: absolute;
+  top: 4px;
+  right: 5px;
 }

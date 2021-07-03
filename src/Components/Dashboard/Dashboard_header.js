@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Button, Menu, MenuItem } from "@material-ui/core"
 import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 import "./Dashboard_header.css"
+import SearchIcon from '@material-ui/icons/Search';
 
 function Dashboard_header() {
     const months = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
@@ -32,6 +33,12 @@ function Dashboard_header() {
                     <MenuItem onClick={() => setMonthIndex(index)}>{lang}</MenuItem>
                 ))}
             </Menu>
+            <div className="search_bar">
+                <SearchIcon />
+                <form>
+                    <input />
+                </form>
+            </div>
         </div>
     )
 }

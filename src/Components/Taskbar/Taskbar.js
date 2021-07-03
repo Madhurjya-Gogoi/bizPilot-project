@@ -1,9 +1,11 @@
 import React from 'react'
+import "./Taskbar.css"
+
 
 function Taskbar() {
     return (
-        <div>
-           
+        <div className="task_body">
+          
         </div>
     )
 }
