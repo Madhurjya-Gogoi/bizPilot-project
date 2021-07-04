@@ -1,29 +1,30 @@
-.task_body {
-  height: 1400px;
+.exp_body {
   background-color: #ffffff;
-  border-left: 1px solid #cdd5e1;
   display: flex;
   flex-direction: column;
 }
-.My_task {
+.exp_task {
   margin-left: 20px;
   border-bottom: 1px solid #cdd5e1;
-  
+  padding: 0%;
+}
+.exp_task_head h5 {
+  color: #6c6c6c;
 }
 
-.task_bottom h5 {
+.exp_bottom h5 {
   font-size: small;
   color: #6c6c6c;
 }
 
-.task_bottom p {
+.exp_bottom p {
   font-size: small;
   color: #6c6c6c;
   position: relative;
   left: 50px;
   top: 10px;
 }
-.btn_section button {
+.exp_btn_sec button {
   border: 1.3px solid #d9dfe8;
   background-color: transparent;
   font-size: x-small;
@@ -32,37 +33,54 @@
   float: right;
   position: relative;
   top: 1px;
-  left: -30px;
+  left: -105px;
   margin-left: 10px;
   border-radius: 3px;
 }
 
-.btn_section {
+.exp_btn_sec {
   position: relative;
   top: -49px;
   margin-left: 30px;
 }
-
-.btn_section .btn {
+.exp_btn_sec .btn {
   border: none;
-  position: relative;
-  left: 4px;
   color: #80c3fa;
-  margin-top: 3px;
+  position: relative;
+  left: -4px;
+}
+.exp_btn_sec .btn1 {
+  position: relative;
+  left: -75px;
+}
+.exp_btn_sec .btn2 {
+  position: relative;
+  top: 23px;
+  left: -55px;
 }
 
-.btn .arrow {
+.exp_btn_sec small {
+  border: none;
+  position: relative;
+  top: 20px;
+  left: 50px;
+  color: #6a6a6b;
+  font-size: x-small;
+  font-weight: bold;
+}
+
+.exp_btn .arrow {
   position: relative;
   top: 2px;
   color: #80c3fa;
 }
 
-.btn_section button:hover {
+.exp_btn_sec button:hover {
   cursor: pointer;
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.1);
 }
 
-.My_task_head {
+.exp_bank_task_head {
   display: flex;
   justify-content: space-between;
 }

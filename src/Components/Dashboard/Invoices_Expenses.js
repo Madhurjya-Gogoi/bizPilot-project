@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 import "./Invoices_expenses.css"
 import ArrowForwardIosIcon from '@material-ui/icons/ArrowForwardIos';
+import {Menu, MenuItem} from "@material-ui/core"
 
 function Invoices_Expenses() {
+    const [anchorEl, setAnchorEl] = useState(null);
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
+
     return (
         <div className="invoice_expenses">
             <div >
@@ -13,11 +23,24 @@ function Invoices_Expenses() {
                 </div>
                 <div className="invoice_data">
                     <h5>Total Invoiced (10)</h5>
-                    <button>Rs. 10,00000 <ArrowForwardIosIcon /></button>
+                    <button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>Rs. 10,00000 <ArrowForwardIosIcon /></button>
+                    <div>
+                        <Menu
+                            id="simple-menu"
+                            anchorEl={anchorEl}
+                            keepMounted
+                            open={Boolean(anchorEl)}
+                            onClose={handleClose}
+                        >
+                            <MenuItem onClick={handleClose}>Rs.10,4000</MenuItem>
+                            <MenuItem onClick={handleClose}>Rs.10,8000</MenuItem>
+                            <MenuItem onClick={handleClose}>Rs.10,5000</MenuItem>
+                        </Menu>
+                    </div>
                 </div>
                 <div className="invoice_data">
                     <h5>Payments Received(8)</h5>
-                    <button>Rs. 8,00,000</button>
+                    <button >Rs. 8,00,000<ArrowForwardIosIcon /></button>
                 </div>
                 <div className="invoice_data">
                     <h5>Unpaid Sales Invoices (2)</h5>
@@ -28,7 +51,7 @@ function Invoices_Expenses() {
                     <button>Rs. 0  <ArrowForwardIosIcon /></button>
                 </div>
             </div>
-            <hr/>
+            <hr />
             <div>
                 <div className="invoice_header">
                     <h5>Expenses</h5>

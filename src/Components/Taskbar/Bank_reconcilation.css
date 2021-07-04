@@ -1,29 +1,30 @@
-.task_body {
-  height: 1400px;
+.bank_body {
   background-color: #ffffff;
-  border-left: 1px solid #cdd5e1;
   display: flex;
   flex-direction: column;
 }
-.My_task {
+.bank_task {
   margin-left: 20px;
   border-bottom: 1px solid #cdd5e1;
-  
 }
 
-.task_bottom h5 {
+.bank_task_head h5 {
+  color: #6c6c6c;
+}
+
+.bank_bottom h5 {
   font-size: small;
   color: #6c6c6c;
 }
 
-.task_bottom p {
+.bank_bottom p {
   font-size: small;
   color: #6c6c6c;
   position: relative;
   left: 50px;
   top: 10px;
 }
-.btn_section button {
+.btn_sec button {
   border: 1.3px solid #d9dfe8;
   background-color: transparent;
   font-size: x-small;
@@ -37,13 +38,13 @@
   border-radius: 3px;
 }
 
-.btn_section {
+.btn_sec {
   position: relative;
   top: -49px;
   margin-left: 30px;
 }
 
-.btn_section .btn {
+.btn_sec .btn {
   border: none;
   position: relative;
   left: 4px;
@@ -57,12 +58,12 @@
   color: #80c3fa;
 }
 
-.btn_section button:hover {
+.btn_sec button:hover {
   cursor: pointer;
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.1);
 }
 
-.My_task_head {
+.bank_task_head {
   display: flex;
   justify-content: space-between;
 }

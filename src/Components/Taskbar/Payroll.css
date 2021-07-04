@@ -1,29 +1,30 @@
-.task_body {
-  height: 1400px;
+.payroll_body {
+  height: 1200px;
   background-color: #ffffff;
-  border-left: 1px solid #cdd5e1;
   display: flex;
   flex-direction: column;
 }
-.My_task {
+.payroll_task {
   margin-left: 20px;
   border-bottom: 1px solid #cdd5e1;
-  
+}
+.payroll_task_head h5{
+    color: #6c6c6c;
 }
 
-.task_bottom h5 {
+.payroll_bottom h5 {
   font-size: small;
   color: #6c6c6c;
 }
 
-.task_bottom p {
+.payroll_bottom p {
   font-size: small;
   color: #6c6c6c;
   position: relative;
   left: 50px;
   top: 10px;
 }
-.btn_section button {
+.payroll_sec button {
   border: 1.3px solid #d9dfe8;
   background-color: transparent;
   font-size: x-small;
@@ -32,21 +33,22 @@
   float: right;
   position: relative;
   top: 1px;
-  left: -30px;
+  left: -105px;
   margin-left: 10px;
   border-radius: 3px;
 }
 
-.btn_section {
+.payroll_sec {
   position: relative;
   top: -49px;
   margin-left: 30px;
 }
 
-.btn_section .btn {
+.payroll_sec .btn {
   border: none;
   position: relative;
-  left: 4px;
+  top: 18px;
+  left: 8px;
   color: #80c3fa;
   margin-top: 3px;
 }
@@ -57,12 +59,12 @@
   color: #80c3fa;
 }
 
-.btn_section button:hover {
+.payroll_sec button:hover {
   cursor: pointer;
   box-shadow: 0 0 11px rgba(33, 33, 33, 0.1);
 }
 
-.My_task_head {
+.payroll_task_head {
   display: flex;
   justify-content: space-between;
 }
