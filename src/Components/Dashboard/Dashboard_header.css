@@ -12,22 +12,3 @@
   top: 23px;
   left: 150px;
 }
-
-
-.search_bar{
-  display: flex;
-  background-color: #8d8a8a;
-  position: absolute;
-  right: 40px;
-  height: .5em;
-  border-radius: 999px;
-  margin-top: 10px;
-  padding: 1em;
-  justify-content: center;
- 
-}
-.search_bar input{
-  background-color: transparent;
-  border: none;
-  
-}

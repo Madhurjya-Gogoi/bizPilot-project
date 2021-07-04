@@ -9,7 +9,7 @@ function Dashboard() {
         <div className="Dashboard_body">
           <Dashboard_header/>
           <div className="main_body">
-           <Dashboard_data/>
+            <Dashboard_data/>
             <Taskbar/>
           </div>         
         </div>

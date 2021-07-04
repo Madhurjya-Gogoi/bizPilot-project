@@ -1,6 +1,5 @@
 .app-body {
   height: 100vh;
+  max-width: 100vw;
   display: flex;
 }
-
-
